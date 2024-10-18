@@ -1,6 +1,6 @@
 Image searching mini CGI project.
 
-The files are just raw codes obviously web server and datasets are excluded.
+The files are just raw codes web server and datasets are excluded.
 
 Extracts RGB, HSV, LUV color histogram, and Gabor(Grayscale), DCNN(VGG16) features from the image dataset and saves it to .npy file.
 Then uses it to calculate the similarity between the query image and the rest of the database.
